@@ -16,16 +16,17 @@ function App() {
   useEffect(() => {
     const getArrayworlds = () => {
       const props = ["", "?page=2", "?page=3", "?page=4", "?page=5", "?page=6"];
-      let newArray = [];
+
       for (let i = 0; i < props.length; i++) {
         getDataFecth(props[i]).then((data) => {
+          let myArray = [];
           for (let j = 0; j < data.results.length; j++) {
-            newArray = [
-              ...newArray,
+            myArray = [
+              ...myArray,
               { name: data.results[j].name, id: data.results[j].id },
             ];
           }
-          setArrayWorlds(newArray);
+          setArrayWorlds(myArray);
         });
       }
     };
