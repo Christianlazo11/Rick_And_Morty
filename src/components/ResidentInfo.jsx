@@ -43,7 +43,7 @@ const ResidentInfo = ({ urlData }) => {
   }, [urlData, status]);
 
   return (
-    <div className="col-3 mb-3" style={{ width: "14rem" }}>
+    <div className="col-12 col-sm-6 col-md-4 col-lg-2 mb-3" style={{}}>
       <div
         className="card bg-secondary text-white box-shadow"
         style={{ border: "none" }}
