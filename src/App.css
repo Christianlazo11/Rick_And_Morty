@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.bg-rick {
+  min-height: 18rem;
+  background-image: url(./img/bgrick02.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box-shadow {
+  -webkit-box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.5);
+  background-color: #e1e1e1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.residentContainer {
+  background-color: black;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.notHabitants {
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/bg-rick-notHabitants.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outMargin p {
+  margin: 0;
 }
