@@ -30,3 +30,7 @@
     #### `npm test`
 
     #### `npm run build`
+
+    #### `npm run eject`
+
+## Demo - https://riackandmortyapp2021.netlify.app/
